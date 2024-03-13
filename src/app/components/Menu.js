@@ -8,7 +8,7 @@ export default function Menu(){
             <Image
             width={150}
             height={150}
-            src={"https://ead.ifms.edu.br/pluginfile.php/1/theme_moove/logo/1699458447/banner%20topo%20capa%20sem%20brasao.jpg"}
+            src={"https://www.ifms.edu.br/marcaifms.png"}
             />
             <nav>
                 <ul>

@@ -8,7 +8,7 @@ const campus = [
     },
     {
       id:2,
-      nome_campi: "Campus Nova Andradina",
+      nome_campi: "Campus Batayporã",
       imagem_url: "https://www.ifms.edu.br/imagens/imagens-noticias/abraco-pela-educacao/img_5497.jpg"
     }
   ];

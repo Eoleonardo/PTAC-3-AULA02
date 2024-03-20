@@ -1,6 +1,6 @@
 import Image from "next/image";
 export default async function Home() {
-const resposta = await fetch("http://localhost:3000/api", { next:{
+const resposta = await fetch("http://back-end-ifms.vercel.app/campi", { next:{
   revalidate:1
 }});
 const campus = await resposta.json();
@@ -12,7 +12,6 @@ const campus = await resposta.json();
            <header>
             <div >
             <p>{campi.nome_campi}</p>
-           
            </div> 
            </header>
           )

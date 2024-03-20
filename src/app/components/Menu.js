@@ -14,11 +14,14 @@ export default function Menu(){
             />
 
             <nav className={styles.navbar}>
-                <ul>
+                <ul className={styles.ul}>
                     <Link href="/" className={styles.ul}><li>Home</li></Link>
                 </ul>
                 <ul>
                   <Link  href="/registro"  className={styles.ul}><li>Resgistrar</li></Link>
+                </ul>
+                <ul>
+                  <Link  href="/localizacao"  className={styles.ul}><li>Localizacao</li></Link>
                 </ul>
                     
             </nav>

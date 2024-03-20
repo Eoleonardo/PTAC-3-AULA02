@@ -1,13 +1,15 @@
-.cabecalho{
-    display: flex;
-    height: auto;
-    background-color: rgb(32, 121, 255);
+.cabeca{
+    border: solid 1px red;
+    padding: 15px;
 }
 
-.cabecalho h1{
-    margin-top: 0px;
+.img{
+    border: solid 2px rgb(0, 60, 255);
 }
-.ul{
-    text-decoration: none;
-    color: white;
+
+.navbar{
+    border: solid 2px rgb(0, 252, 84);
+}
+.campus{
+    border: solid 2px rgb(206, 252, 0);
 }

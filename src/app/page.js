@@ -10,7 +10,7 @@ const campus = await resposta.json();
       {
           campus.map( (campi)=>
            <header>
-            <div>
+            <div >
             <p>{campi.nome_campi}</p>
            </div> 
            </header>

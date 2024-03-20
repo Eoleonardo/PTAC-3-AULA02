@@ -1,6 +1,8 @@
+
 .cabeca{
     border: solid 1px red;
     padding: 15px;
+    display: flex;
 }
 
 .img{
@@ -9,7 +11,9 @@
 
 .navbar{
     border: solid 2px rgb(0, 252, 84);
+    width: 50%;
 }
 .campus{
     border: solid 2px rgb(206, 252, 0);
 }
+

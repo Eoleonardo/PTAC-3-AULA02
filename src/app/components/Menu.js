@@ -15,9 +15,12 @@ export default function Menu(){
 
             <nav className={styles.navbar}>
                 <ul>
-                    <Link href="/"  className={styles.ul} ><li>Home</li></Link>
-                    <Link  href="/registro"  className={styles.ul}><li>Resgistrar</li></Link>
+                    <Link href="/" className={styles.ul}><li>Home</li></Link>
                 </ul>
+                <ul>
+                  <Link  href="/registro"  className={styles.ul}><li>Resgistrar</li></Link>
+                </ul>
+                    
             </nav>
         </header>
     )

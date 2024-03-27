@@ -1,8 +1,15 @@
+'use server'
 import Image from "next/image";
 export default async function Home() {
-const resposta = await fetch("http://back-end-ifms.vercel.app/campi", { next:{
-  revalidate:1
-}});
+const url = "http://back-end-ifms.vercel.app/campi"; 
+
+const resposta = await fetch(url, {
+  cache:"no-cache",
+  method:"GET",
+  headers:{'Content-Type':'application/json'}
+})
+
+
 const campus = await resposta.json();
   return (
    
